@@ -1,0 +1,16 @@
+@todo.api_HostAddress = http://localhost:5192
+
+GET {{todo.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{todo.api_HostAddress}}/users/
+Content-Type: application/json
+{
+  "username": "rohan"
+}
+###
+
+GET {{todo.api_HostAddress}}/users/
+accept: application/json
